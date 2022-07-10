@@ -7,15 +7,10 @@
  * straightforward. For name spacing purposes, All Types metabox ( meaning you can do anything with it )
  * is used.
  *
- * This class is derived from Meta Box script by Rilwis<rilwis@gmail.com> version 3.2. which later was forked
- * by Cory Crowley (email: cory.ivan@gmail.com) The purpose of this class is not to rewrite the script but to
- * modify and change small things and adding a few field types that i needed to my personal preference.
- * The original author did a great job in writing this class, so all props goes to him.
- *
- * @version 3.1.1
+ * @version 3.1.2
  * @copyright 2011 - 2013
- * @author Ohad Raz (email: admin@bainternet.info)
- * @link http://en.bainternet.info
+ * @author Munish Dhiman (email: munishdhiman9@gmail.com)
+ * @link @munishd8
  *
  * @license GNU General Public LIcense v3.0 - license.txt
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -561,7 +556,7 @@ class AT_Meta_Box {
    * Show Field code editor.
    *
    * @param string $field
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @param string $meta
    * @since 2.1
    * @access public
@@ -1252,7 +1247,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Field to meta box (generic function)
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.2
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1266,7 +1261,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Text Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1290,7 +1285,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Number Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1314,7 +1309,7 @@ class AT_Meta_Box {
 
   /**
    *  Add code Editor to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 2.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1339,7 +1334,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Hidden Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1.3
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1363,7 +1358,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Paragraph to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1.3
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1382,7 +1377,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Checkbox Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1405,7 +1400,7 @@ class AT_Meta_Box {
 
   /**
    *  Add CheckboxList Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1432,7 +1427,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Textarea Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1456,7 +1451,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Select Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string field id, i.e. the meta key
@@ -1482,7 +1477,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Radio Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string field id, i.e. the meta key
@@ -1506,7 +1501,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Date Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1530,7 +1525,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Time Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string- field id, i.e. the meta key
@@ -1554,7 +1549,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Color Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1577,7 +1572,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Image Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1599,7 +1594,7 @@ class AT_Meta_Box {
 
   /**
    *  Add File Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1621,7 +1616,7 @@ class AT_Meta_Box {
 
   /**
    *  Add WYSIWYG Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1645,7 +1640,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Taxonomy Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1677,7 +1672,7 @@ class AT_Meta_Box {
 
   /**
    *  Add posts Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1710,7 +1705,7 @@ class AT_Meta_Box {
 
   /**
    *  Add repeater Field Block to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1737,7 +1732,7 @@ class AT_Meta_Box {
 
   /**
    *  Add Checkbox conditional Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 2.9.9
    *  @access public
    *  @param $id string  field id, i.e. the key
@@ -1770,7 +1765,7 @@ class AT_Meta_Box {
 
   /**
    * Finish Declaration of Meta Box
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 1.0
    * @access public
    */
@@ -1780,7 +1775,7 @@ class AT_Meta_Box {
 
   /**
    * Helper function to check for empty arrays
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 1.5
    * @access public
    * @param $args mixed|array
@@ -1808,7 +1803,7 @@ class AT_Meta_Box {
    *
    * Checks if the uploaded file is of the expected format
    *
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 3.0.7
    * @access public
    * @uses get_allowed_mime_types() to check allowed types
@@ -1837,7 +1832,7 @@ class AT_Meta_Box {
   /**
    * function to sanitize field id
    *
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 3.0.7
    * @access public
    * @param  string $str string to sanitize
@@ -1851,7 +1846,7 @@ class AT_Meta_Box {
   /**
    * stripNumeric Strip number form string
    *
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 3.0.7
    * @access public
    * @param  string $str
@@ -1864,7 +1859,7 @@ class AT_Meta_Box {
 
   /**
    * load_textdomain
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 2.9.4
    * @return void
    */

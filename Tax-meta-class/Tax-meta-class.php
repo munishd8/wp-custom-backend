@@ -6,13 +6,13 @@
  * Add meta fields for WordPress Taxonomies (categories,tags and custom taxonomies). It is meant to be very simple and
  * straightforward.
  *
- * This class is derived from My-Meta-Box (https://github.com/bainternet/My-Meta-Box script) which is
+ * This class is derived from My-Meta-Box (https://github.com/munishd8/wp-custom-backend/tree/master/Tax-meta-class script) which is
  * a class for creating custom meta boxes for WordPress.
  *
- * @version 2.1.0
- * @copyright 2012-2015 Ohad Raz
- * @author Ohad Raz (email: admin@bainternet.info)
- * @link http://en.bainternet.info
+ * @version 2.1.2
+ * @copyright 2012-2015 Munish Dhiman
+ * @author Munish Dhiman
+ * @link @munsihd8
  *
  * @license GNU General Public LIcense v3.0 - license.txt
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -24,7 +24,6 @@
  * THE SOFTWARE.
  *
  * @package Tax Meta Class
- * @deprecated replace_insert_to_post_text() @since 1.8.3
  *
  */
 
@@ -1208,7 +1207,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Field to meta box (generic function)
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1222,7 +1221,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Text Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1245,7 +1244,7 @@ class Tax_Meta_Class {
   }
   /**
    *  Add Hidden Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1.3
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1269,7 +1268,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Paragraph to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1.3
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1288,7 +1287,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Checkbox Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1311,7 +1310,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add CheckboxList Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1338,7 +1337,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Textarea Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1362,7 +1361,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Select Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string field id, i.e. the meta key
@@ -1388,7 +1387,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Radio Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string field id, i.e. the meta key
@@ -1412,7 +1411,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Date Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1436,7 +1435,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Time Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string- field id, i.e. the meta key
@@ -1460,7 +1459,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Color Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1483,7 +1482,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Image Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1505,7 +1504,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add File Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1527,7 +1526,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add WYSIWYG Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1551,7 +1550,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add Taxonomy Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1583,7 +1582,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add posts Field to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1611,7 +1610,7 @@ class Tax_Meta_Class {
 
   /**
    *  Add repeater Field Block to meta box
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.0
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -1632,7 +1631,7 @@ class Tax_Meta_Class {
 
   /**
    * Finish Declaration of Meta Box
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 1.0
    * @access public
    */
@@ -1642,7 +1641,7 @@ class Tax_Meta_Class {
 
   /**
    * Helper function to check for empty arrays
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 1.0
    * @access public
    * @param $args mixed|array
@@ -1700,7 +1699,7 @@ class Tax_Meta_Class {
    * delete meta on term deletion
    *
    *  answers issue #16
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.8.1
    *  @access public
    *  @return Void
@@ -1716,7 +1715,7 @@ class Tax_Meta_Class {
   /**
    * footer_js
    *  fix issue #2
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 1.7.4
    *  @access public
    *  @return Void

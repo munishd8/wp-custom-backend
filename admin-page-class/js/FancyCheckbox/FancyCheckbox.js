@@ -1,8 +1,8 @@
 /**
  * 	Iphone styled checkboxes
- * 	@author Ohad Raz http://en.bainternet.info
+ * 	@author Munish Dhiman @munishd8
  * 	@version 0.1
- * 	@copyright 2012 Ohad Raz
+ * 	@copyright 2012 Munish Dhiman
  */
 ;(function ( $, window, document, undefined ) {
 	var options = {

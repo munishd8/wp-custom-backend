@@ -6,14 +6,14 @@
  * create custom Admin Pages. It is meant to be very simple and
  * straightforward.
  *
- * This class is derived from My-Meta-Box (https://github.com/bainternet/My-Meta-Box script) which is
+ * This class is derived from My-Meta-Box (https://github.com/munishd8/wp-custom-backend/tree/master/admin-page-class script) which is
  * a class for creating custom meta boxes for WordPress.
  *
  *
  * @version 1.3.0
  * @copyright 2012 - 2014
- * @author Ohad Raz (email: admin@bainternet.info)
- * @link http://en.bainternet.info
+ * @author Munish Dhiman (email: munishdhiman9@gmail.com)
+ * @link @munishd8
  *
  * @license GNU General Public LIcense v3.0 - license.txt
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -363,7 +363,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
     /**
      * loads scripts and styles for the page
      *
-     * @author ohad raz
+     * @author Munish Dhiman
      * @since 0.1
      * @access public
      */
@@ -630,7 +630,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
     /**
      * edit_insert_to_post_text
      *
-     * @author  ohad raz
+     * @author  Munish Dhiman
      * @since 0.1
      * @param  string $input insert to post text
      * @return string
@@ -1651,7 +1651,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
    * Show Field code editor.
    *
    * @param string $field
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @param string $meta
    * @since 0.1
    * @access public
@@ -1921,7 +1921,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * Show Typography Field.
    *
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @param array $field
    * @param array $meta
    * @since 0.3
@@ -2495,7 +2495,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Field to page (generic function)
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2540,7 +2540,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Text Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2564,7 +2564,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Pluploader Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.9.7
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2588,7 +2588,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Hidden Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2612,7 +2612,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add code Editor to page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2637,7 +2637,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Paragraph to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *
@@ -2655,7 +2655,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Checkbox Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2678,7 +2678,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Checkbox conditional Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.5
    *  @access public
    *  @param $id string  field id, i.e. the key
@@ -2702,7 +2702,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add CheckboxList Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2729,7 +2729,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Textarea Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2753,7 +2753,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Select Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string field id, i.e. the meta key
@@ -2778,7 +2778,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Sortable Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.4
    *  @access public
    *  @param $id string field id, i.e. the meta key
@@ -2803,7 +2803,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Radio Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string field id, i.e. the meta key
@@ -2827,7 +2827,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Date Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2851,7 +2851,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Time Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string- field id, i.e. the meta key
@@ -2875,7 +2875,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Color Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2898,7 +2898,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Image Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2921,7 +2921,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add WYSIWYG Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2945,7 +2945,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add Taxonomy Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -2974,7 +2974,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add WP_Roles Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -3000,7 +3000,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add posts Field to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -3029,7 +3029,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add repeater Field Block to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.1
    *  @access public
    *  @param $id string  field id, i.e. the meta key
@@ -3051,7 +3051,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    * Finish Declaration of Page
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 0.1
    * @access public
    * @deprecated 1.1.8
@@ -3068,7 +3068,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    * Helper function to check for empty arrays
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 0.1
    * @access public
    * @param $args mixed|array
@@ -3227,7 +3227,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    *  Add import export to Page
-   *  @author Ohad Raz
+   *  @author Munish Dhiman
    *  @since 0.8
    *  @access public
    *
@@ -3412,7 +3412,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
 
   /**
    * load_textdomain
-   * @author Ohad Raz
+   * @author Munish Dhiman
    * @since 1.0.9
    * @return void
    */
@@ -3428,7 +3428,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * validate field
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param  array $field field data
    * @param  mixed $meta  value to validate
@@ -3455,7 +3455,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * displayErrors function to print out validation errors.
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @return void
    */
@@ -3477,7 +3477,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * getFieldErrors return field errors
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param  string $field_id
    * @return array
@@ -3493,7 +3493,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * has_error check if a field has errors
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param  string  $field_id field ID
    * @return boolean
@@ -3511,7 +3511,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * valid email
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3523,7 +3523,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * check a number optional -,+,. values
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3535,7 +3535,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * check given number below value
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3547,7 +3547,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * check given number exceeds max values
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3559,7 +3559,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * Check the string length has minimum length
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3571,7 +3571,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * check string length exceeds maximum length
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3583,7 +3583,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * check for exactly length of string
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3595,7 +3595,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * Valid URL or web address
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean
@@ -3607,7 +3607,7 @@ if ( ! class_exists( 'BF_Admin_Page_Class') ) :
   /**
    * Matches alpha and numbers only
    * @access public
-   * @author Ohad Raz <admin@bainternet.info>
+   * @author Munish Dhiman <munishdhiman9@gmail.com>
    * @since 1.1.9
    * @param   string
    * @return  boolean

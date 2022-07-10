@@ -17,8 +17,8 @@
 * 	require_once("Tax-meta-class/migration/tax_to_term_meta.php");
 *  	new tax_to_term_meta();
 *
-* @copyright 2012-2015 Ohad Raz 
-* @author Ohad Raz (email: admin@bainternet.info)
+* @copyright 2012-2015 Munish Dhiman 
+* @author Munish Dhiman (email: munishdhiman9@gmail.com)
 * @link https://en.bainternet.info
 * 
 * @license GNU General Public LIcense v3.0 - license.txt

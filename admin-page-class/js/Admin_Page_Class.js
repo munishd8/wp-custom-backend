@@ -3,7 +3,7 @@
  *
  * JS used for the admin pages class and other form items.
  *
- * Copyright 2011 Ohad Raz (admin@bainternet.info)
+ * Copyright 2011 Munish Dhiman (munishdhiman9@gmail.com)
  * @since 1.0
  */
 
@@ -429,7 +429,7 @@ function load_code_editor(){
 /**
  * do_ajax 
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * @param  string which  (import|export)
  * 
@@ -451,7 +451,7 @@ function do_ajax_import_export(which){
 /**
  * export_ajax_call make export ajax call
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * 
  * @param  string action 
@@ -482,7 +482,7 @@ function export_ajax_call(action,group,seq_selector,which){
 /**
  * import_ajax_call make import ajax call
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * 
  * @param  string action 
@@ -515,7 +515,7 @@ function import_ajax_call(action,group,seq_selector,which){
 /**
  * before_ajax_import_export 
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * @param  string which  (import|export)
  * 
@@ -535,7 +535,7 @@ function before_ajax_import_export(which){
 /**
  * after_ajax_import_export
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * @param  string which  (import|export)
  * 
@@ -551,7 +551,7 @@ function after_ajax_import_export(which){
 /**
  * export_reponse
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * @param  json data ajax response
  * @return void
@@ -568,7 +568,7 @@ function export_response(data){
 /**
  * import_reponse
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * @param  json data ajax response
  * 
@@ -600,7 +600,7 @@ function refresh_page(){
 /**
  * microtime used as hack to avoid ajax cache
  * 
- * @author Ohad Raz <admin@bainternet.info> 
+ * @author Munish Dhiman <munishdhiman9@gmail.com> 
  * @since 0.8
  * @param  boolean get_as_float 
  * 

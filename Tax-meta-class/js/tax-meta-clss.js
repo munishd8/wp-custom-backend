@@ -3,7 +3,7 @@
  *
  * JS used for the custom fields and other form items.
  *
- * Copyright 2012 Ohad Raz (admin@bainternet.info)
+ * Copyright 2012 Munish Dhiman (munishdhiman9@gmail.com)
  * @since 1.0
  * 
  * @package Tax Meta Class

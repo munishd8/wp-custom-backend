@@ -3,7 +3,7 @@
  *
  * JS used for the custom metaboxes and other form items.
  *
- * Copyright 2011 - 2013 Ohad Raz (admin@bainternet.info)
+ * Copyright 2011 - 2013 Munish Dhiman (munishdhiman9@gmail.com)
  * @since 1.0
  */
 
